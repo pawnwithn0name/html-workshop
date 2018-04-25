@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="UTF-8" /> 
+	    <title>
+		HTML Tables
+	    </title>
+	<style>
+	table, th, td {
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+	th{
+		background-color:#def;
+	}
+	.odd{
+		background-color:#cde;
+	}
+	.even{
+		background-color:#cfe;
+	}
+	
+	</style>
+	</head>
+<body>
+	<h1>
+	    HTML Tables
+	</h1>
+
+<table>
+    <caption>
+        Some Favorite Albums
+    </caption>
+
+    <tr>
+        <th> Title </th>
+        <th> Artist </th>
+        <th> Comment </th>
+    </tr>
+
+    <tr class="odd"> 
+        <td> Electric Ladyland </td>
+        <td> Jimi Hendrix </td>
+        <td> Revolutionary </td>
+    </tr>
+
+    <tr class="even">
+        <td> Revolver </td>
+        <td> The Beatles </td>
+        <td> Their best work. </td>
+    </tr>
+
+    <tr class="odd">
+        <td> Apostrophe </td>
+        <td> Frank Zappa </td>
+        <td> Brilliant mix of rock and jazz. </td>
+    </tr>
+
+    <tr class="even">
+        <td> Birds of Fire </td>
+        <td> Mahavishnu Orchestra </td>
+        <td> The ultimate fusion album. </td>
+    </tr>
+</table>
+</body>
+</html>
+
+
+
+<!-- 
+table, th, td {
+	border: 1px solid black;
+	font-family: monospace;
+	border-collapse: collapse;
+	}
+th {background-color: #cef;}
+caption{caption-side:bottom;}
+-->
